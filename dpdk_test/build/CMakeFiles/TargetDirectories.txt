@@ -1,0 +1,3 @@
+/home/ubuntu/Desktop/DynamicFirewall/dpdk_test/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/Desktop/DynamicFirewall/dpdk_test/build/CMakeFiles/dpdk_test.dir
+/home/ubuntu/Desktop/DynamicFirewall/dpdk_test/build/CMakeFiles/edit_cache.dir
