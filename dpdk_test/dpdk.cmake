@@ -1,9 +1,0 @@
-find_package(PkgConfig REQUIRED)
-
-pkg_check_modules(DPDK REQUIRED libdpdk)
-
-if (DPDK_LIBRARIES AND DPDK_INCLUDE_DIRS)
-    message(STATUS "Found DPDK:\n   DPDK_INCLUDE_DIRS: ${DPDK_INCLUDE_DIRS}\n   DPDK_LIBRARIES: ${DPDK_LIBRARIES}\n   DPDK_CFLAGS_OTHER: ${DPDK_CFLAGS_OTHER}\n   DPDK_LDFLAGS_OTHER: ${DPDK_LDFLAGS_OTHER}")
-else()
-    message(FATAL_ERROR "Could not find DPDK")
-endif()
