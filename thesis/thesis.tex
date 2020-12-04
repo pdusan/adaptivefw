@@ -1,0 +1,94 @@
+\documentclass[11pt]{article}
+
+\usepackage{amsfonts,amssymb,amsmath}
+\usepackage[thmmarks,hyperref,amsthm,amsmath]{ntheorem}
+
+\usepackage{graphicx}
+\usepackage[ruled,vlined,commentsnumbered]{algorithm2e}
+\usepackage[shortlabels]{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage{comment}
+\usepackage{subfig}
+\usepackage{epstopdf}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage[font=footnotesize,labelfont=bf]{caption}
+\usepackage[margin=2cm,bottom=1.2in]{geometry}
+
+
+\usepackage{url}
+\usepackage{breakurl}
+\usepackage[breaklinks]{hyperref}
+\hypersetup
+{
+    pdfauthor={Dušan Popović under supervision of Dr. Maciej Pacut },
+    pdftitle={BSc thesis: Adaptive Firewall},
+}
+
+\linespread{1.5}
+
+
+
+
+\begin{document}
+
+\begin{titlepage}
+	\centering
+	\includegraphics[width=0.65\textwidth]{unilogo.jpg}\par
+	{\scshape\LARGE University of Vienna\par}
+	\vspace{2cm}
+	{\scshape\Large Bachelor thesis\par}
+	\vspace{1cm}
+	{\huge\bfseries
+		Adaptive Firewall
+		\par}
+	\vspace{3cm}
+	{\huge \bfseries Dušan Popović\par}
+	\vfill
+	{\Large supervised by\par
+		Dr. Maciej Pacut}
+
+	\vfill
+
+	{\large March 2021 \par}
+\end{titlepage}
+
+\hspace{0pt}
+\vfill
+
+\begin{abstract}
+lorem ipsum	
+\end{abstract}
+
+\vfill
+
+\hspace{0pt}
+\thispagestyle{empty}
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+
+
+\tableofcontents
+
+\newpage
+
+\part{Introduction}
+
+Example citation~\cite{tcp-ack}.
+
+\section{Review of Existing Firewall Applications}
+
+\part{Design of Adaptive Firewall}
+
+\part{Experimental Evaluation}
+
+\section{Conclusions}
+
+\bibliographystyle{alphaurl}
+\bibliography{references}
+
+
+\end{document}
